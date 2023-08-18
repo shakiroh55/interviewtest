@@ -1,0 +1,67 @@
+.hero{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+
+
+}
+.firstAccess{
+    font-size: 2rem;
+}
+#missed{
+    font-size: 2rem;
+    color: black;
+}
+.content{
+    width: 50%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.form p{
+    display: flex;
+    flex-direction: column;
+}
+#login{
+    background-color: orange;
+    color: #fff;
+    width: 320px;
+    border: none;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+#inputText1{
+    width: 300px;
+    padding: 0.5rem;
+}
+#inputText2{
+    width: 300px;
+    padding: 0.5rem;
+}
+.signUpColor{
+    color: blue;
+    display: inline;
+}
+.username{
+    font-size: 14px;
+}
+
+
+@media (max-width:768px) {
+    .hero{
+       flex-direction: column;
+       padding: 70px 20px 20px 20px;
+    } 
+
+    .content{
+        width: 100%;
+    }
+
+    #sectionImage{
+        display: none;
+    }
+}
